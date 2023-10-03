@@ -3,7 +3,6 @@ module somador
 		parameter N = 32
 	)
 	(
-		input wire cin,
 		input wire [N-1:0] A, B,
 		output reg [N-1:0] S,
 		output reg cout
@@ -11,7 +10,7 @@ module somador
 	
 	always@*
 	begin
-		{cout,S} = A + B + cin;
+		{cout,S} = A + B;
 	end
 	
 	
