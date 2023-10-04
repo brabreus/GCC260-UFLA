@@ -1,4 +1,4 @@
-// dec2x4_tb.v
+// dec2to4_tb.v
 `timescale 1ns/10ps
 
 module dec2to4_tb;
