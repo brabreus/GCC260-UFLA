@@ -1,4 +1,4 @@
-module AsyncInputSynchronizer (
+module InputSynchronizer (
 	input wire clk, // system clock
 	input wire asyncn, // Asynchronous input (reset or preset)
 	output wire syncn // Synchronous reset or preset output
